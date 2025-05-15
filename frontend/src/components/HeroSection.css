@@ -1,0 +1,159 @@
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+  background-image: url('hero-bg.png');
+}
+.hero-left{
+  width: 50%;
+  height: auto;
+  margin: 10% 0 10% 2% ;
+}
+
+.card-container{
+  padding: 10% 4% 4% 0;
+}
+.hero-img{
+  width: 100%;
+}
+
+.card {
+  background-color: #000;
+  border-radius: 12px;
+  width: 440px;
+  overflow: hidden;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  color: white;
+  padding: 0; /* Add this if not already */
+  margin: 0;
+}
+
+
+.card-img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  display: block; /* ensures no bottom whitespace */
+  margin: 0;
+  padding: 0;
+}
+
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  margin: 0;
+}
+
+.card-text, .card-title, .card-description, .card-button {
+  margin: 0;
+  padding: 0;
+}
+
+.card-details{
+  padding: 10px;
+  display: flex;
+}
+.buy-now-btn{
+  width: 100%;
+  margin: 10% ;
+  background-color: white;
+}
+.card-details-left{
+  width: 70%;
+}
+.card-details-left p{
+  color: yellow;
+}
+
+.card-details-right button{
+  color: white;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+.card-details-right button:hover{
+  color: #0055DE;
+  font-size: 16px;
+  background-color: white;
+}
+
+.hero-form {
+  margin: auto;
+  padding: 40px;
+  width: 80%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 8px;
+}
+
+.hero-form form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  margin: 0 0 0 20px;
+  flex: 1;
+}
+
+.form-group label {
+
+  color: #0055DE;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.form-group button {
+  background: #0055DE;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.form-group button:hover {
+  background: #218838;
+}
+@media (max-width: 768px) {
+  .hero-form form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}

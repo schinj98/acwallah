@@ -1,0 +1,61 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;  /* Transparent background */
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .logo-img {
+    height: 40px; /* Adjust the logo size */
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 3;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;  /* Text color for nav items */
+    margin: 0 20px;
+    transition: color 0.3s;
+  }
+  
+  .nav-item:hover {
+    color: #2196F3;  /* Hover effect on nav items */
+  }
+  
+  .login-btn {
+    background-color: #0055DE;  /* Blue background for login/signup button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #0055DE;  /* Darker blue on hover */
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  

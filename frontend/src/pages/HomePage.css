@@ -1,0 +1,179 @@
+.home-page {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* vertically center sab sections */
+  gap: 50px;     
+         /* sections ke beech space */
+}
+
+.services-container,
+.ac-cards-section,
+.homepage-review-section,
+.vip-section {
+  width: 85%;          /* sabhi sections ki width 85% */
+  margin: 0 auto;      /* horizontally center align */
+}
+
+.section-heading {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.highlight {
+  color: #0055DE;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  /* 2 columns fixed */
+  gap: 30px;
+  justify-items: center;
+}
+
+.service-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  width: 100%;      /* full width of grid column */
+  max-width: 450px; /* max width for card */
+  box-shadow: 0 0 15px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.service-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.book-now {
+  background-color: #0055DE;
+  color: white;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.price {
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-card ul {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  color: #0055DE;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.ac-cards-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* cards center align */
+}
+
+.ac-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 180px;
+  text-align: center;
+}
+
+.homepage-review-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 15px;
+}
+
+.review-sec-left {
+  max-width: 50%;
+  padding-left: 0;
+}
+.profile-listed-title {
+  width: 85%;
+}
+.profile-listed-title h2{
+  text-align: left;
+}
+
+.review-sec-left p:first-child {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.review-sec-left h2 {
+  margin: 10px 0 20px 0;
+  font-size: 28px;
+}
+
+.review-sec-right {
+  max-width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.review-sec-right img {
+  width: 93%;
+  border-radius: 15px;
+}
+
+.vip-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0055DE;
+  padding: 20px 30px;
+  width: 60%;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.vip-left h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.vip-left p {
+  margin: 6px 0 0 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+.vip-right .vip-button {
+  color: #0055DE;
+  background-color: #fff;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
