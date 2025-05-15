@@ -1,6 +1,6 @@
 import React from "react";
 import "./OldListedAC.css";
-import HeroSection from "/Users/schin/Desktop/acWallah/acwallah/frontend/src/components/HeroSection.js";
+import HeroSection from "frontend/src/components/HeroSection.js";
 import acImage from "./ac-demo.jpeg";
 
 function OldListedAC() {
